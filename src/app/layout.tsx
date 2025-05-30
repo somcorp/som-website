@@ -11,7 +11,7 @@ const kodeMono = Kode_Mono({
 export const metadata: Metadata = {
   title: "SOM Corporation | Mais do que uma empresa, um movimento tecnológico",
   description:
-    "Ecossistema de inovação que desenvolve soluções digitais completas, unindo tecnologia, design e estratégia para transformar negócios com eficiência e criatividade.",
+    "SOM é um ecossistema de inovação que desenvolve softwares, aplicativos e soluções digitais com tecnologia, design e estratégia para transformar empresas.",
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body className={`${kodeMono.className} antialiased`}>
         {children}
         <Analytics />
