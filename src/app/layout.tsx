@@ -9,9 +9,9 @@ const kodeMono = Kode_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Som Corporation",
+  title: "Som Corporation: Mais do que uma empresa, um movimento tecnológico",
   description:
-    "Um ecossistema de inovação que une tecnologia, design e estratégia para criar soluções digitais completas.",
+    "Ecossistema de inovação que desenvolve soluções digitais completas, unindo tecnologia, design e estratégia para transformar negócios com eficiência e criatividade.",
 };
 
 export default function RootLayout({
