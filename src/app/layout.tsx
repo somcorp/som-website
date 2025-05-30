@@ -9,7 +9,7 @@ const kodeMono = Kode_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Som Corporation: Mais do que uma empresa, um movimento tecnológico",
+  title: "SOM Corporation | Mais do que uma empresa, um movimento tecnológico",
   description:
     "Ecossistema de inovação que desenvolve soluções digitais completas, unindo tecnologia, design e estratégia para transformar negócios com eficiência e criatividade.",
 };
