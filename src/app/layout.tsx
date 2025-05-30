@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
-import { Orbitron } from "next/font/google";
+import { Kode_Mono } from "next/font/google";
 import "./globals.css";
 
-const poppins = Orbitron({
-  weight: "400",
+const kodeMono = Kode_Mono({
   subsets: ["latin"],
-  variable: "--font-poppins",
+  variable: "--font-kode-mono",
 });
 
 export const metadata: Metadata = {
@@ -22,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} antialiased`}>
+      <body className={`${kodeMono.className} antialiased`}>
         {children}
         <Analytics />
       </body>
